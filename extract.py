@@ -4,7 +4,7 @@ import tabula
 import pandas as pd
 
 # Read PDF File (enter the pdf name and extension)
-pdfname = input("enter the pdf name and extension: ")
+pdfname = input("enter the pdf name: ")
 i = 0
 df = tabula.read_pdf(pdfname, pages='all')[i]
 if df.columns[0] == 'University Seat Number':
@@ -28,7 +28,7 @@ print(specific_subs)
 
 # print(description)
 #description = specific_subs.describe()
-#print(description)
+# print(description)
 
 
 # delete the excel files created
