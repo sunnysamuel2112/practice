@@ -4,7 +4,7 @@ import tabula
 import pandas as pd
 
 # Read PDF File (enter the pdf name and extension)
-pdfname = input("enter the pdf name and extension: ")
+pdfname = input("enter the pdf and extension: ")
 
 marks_list = []
 
