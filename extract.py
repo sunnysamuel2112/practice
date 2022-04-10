@@ -27,7 +27,7 @@ try:
         subs = df[i].loc[df[i]['Total'] >= 0]
 
         # print(subs)
-        specific_subs = subs[['Subject', 'Total', 'Result']]
+        specific_subs = subs[['Subject', 'Tota', 'Result']]
         print(specific_subs)
         
         for row in specific_subs.iterrows():
@@ -45,6 +45,7 @@ try:
     # for prev_sem
 except:
     print("Failed to fetch details.")
+    os.remove(filename)
 
 
 #print("saved in list: \n"+ str(marks_list))
