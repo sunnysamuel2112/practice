@@ -27,8 +27,8 @@ specific_subs = subs[['Subject', 'Total', 'Result']]
 print(specific_subs)
 
 # print(description)
-description = specific_subs.describe()
-print(description)
+#description = specific_subs.describe()
+#print(description)
 
 
 # delete the excel files created
