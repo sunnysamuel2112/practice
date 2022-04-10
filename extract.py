@@ -27,13 +27,11 @@ try:
         subs = df[i].loc[df[i]['Total'] >= 0]
 
         # print(subs)
-        specific_subs = subs[['Subject', 'Tota', 'Result']]
+        specific_subs = subs[['Subject', 'Total', 'Result']]
         print(specific_subs)
-        
+
         for row in specific_subs.iterrows():
             marks_list.append(row)
-        
-        
 
         # print(description)
         #description = specific_subs.describe()
