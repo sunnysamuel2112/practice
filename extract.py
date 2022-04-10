@@ -47,4 +47,4 @@ except:
     print("Failed to fetch details.")
 
 
-print("saved in list: \n"+ str(marks_list))
+#print("saved in list: \n"+ str(marks_list))
