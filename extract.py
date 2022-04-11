@@ -25,14 +25,18 @@ try:
     # print(subs)
     specific_subs = subs[['Subject', 'Total', 'Result']]
     print(specific_subs)
+
     for row in specific_subs.iterrows():
         marks_list.append(row)
+
     # print(description)
     #description = specific_subs.describe()
     # print(description)
+
     # delete the excel files created
     os.remove(filename)
     # for prev_sem
+
 except:
     print("Failed to fetch details.")
     os.remove(filename)
